@@ -1,0 +1,238 @@
+body {overflow:hidden;}
+
+
+.L {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+  font-size: 270px;
+  font-weight: 500px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+
+.A {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  font-size: 450px;
+  font-weight: 700px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 33%;
+
+}
+
+.LAND {
+  font-size: 120px;
+  font-style: italic;
+  background: linear-gradient(#40257F, #7669AD, #F7C4B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  left: 21%;
+  top: 8%;
+}
+
+.L2 {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #D900FF;
+  font-size: 170px;
+  color: white;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+
+}
+
+.A2 {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #51FDFF;
+  font-size: 140px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 28%;
+  top: 3%;
+}
+
+.A3 {
+  font-size: 180px;
+  color: #D6B4FA;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  bottom: 23%;
+  left: 10%;
+}
+
+.PL {
+  font-size: 140px;
+  color: #51FDFF;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  left: 25%;
+}
+
+.box{
+  width: 16%; 
+  height: 60%; 
+  background-color: white; 
+  position: absolute; 
+  left: 16%;
+  
+}
+.box:hover{
+  background-color: #F3F200;}
+
+
+.box2{
+  width: 16%; 
+  height: 60%; 
+  background-color: white; 
+  position: absolute; 
+  left: 42%;
+}
+.box2:hover{
+  background-color: black;
+}
+
+.box3{
+  width: 16%; 
+  height: 60%; 
+  background-color: white; 
+  position: absolute; 
+  right: 16%;
+}
+.box3:hover{
+  background: linear-gradient(#0D368D, #6391DB, #BC8DCC);
+}
+
+.this{
+  font-size: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #F3F200;
+  position: absolute;
+  bottom: 7%;
+  right: 6%;
+  animation-name: thism;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes thism {
+  0% {
+    opacity: 0%
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%
+  }
+}
+
+
+
+.L {
+  animation: L 1s ease infinite;
+  -moz-animation: L 1s ease infinite;
+  -webkit-animation: L 1s ease infinite;
+}
+
+@keyframes L {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #D06EF9, 0 0 3vw #D06EF9, 0 0 10vw #D06EF9, 0 0 10vw #D06EF9, 0 0 .4vw #D06EF9, .5vw .5vw .1vw #A19DD6;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #0D368D, 0 0 1.5vw #0D368D, 0 0 5vw #0D368D, 0 0 5vw #0D368D, 0 0 .2vw #0D368D, .5vw .5vw .1vw #40340A;
+    color: #A8A8CC;
+  }
+}
+
+.A {
+  animation: A 2s linear infinite;
+  -moz-animation: A 2s linear infinite;
+  -webkit-animation: A 2s linear infinite;
+  -o-animation: A 2s linear infinite;
+}
+
+@keyframes A {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+/*.LAND {
+  animation: LAND 2.5s linear infinite;
+  -moz-animation: LAND 2.5s linear infinite;
+  -webkit-animation: LAND 2.5s linear infinite;
+  -o-animation: LAND 2.5s linear infinite;
+}
+
+@keyframes LAND {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #51FDFF, 0 0 1.5vw #51FDFF, 0 0 5vw #51FDFF, 0 0 5vw #51FDFF, 0 0 .2vw #51FDFF, .5vw .5vw .1vw #51FDFF;
+    color: #146C80;
+  }
+}*/
+
+.ball {
+  animation-name: speed;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes speed {
+  0% {transform: translate(0%);}
+  50%{transform: translate(205%);}
+  100%{transform: translate(0%);}
+}
+
+.ball2 {
+  animation-name: speed;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes speed {
+  0% {transform: translate(0%);}
+  50%{transform: translate(203%);}
+  100%{transform: translate(0%);}
+}
+
+.semicircle {
+  animation-name: sc;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 100%;
+
+}
+
+@keyframes sc {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+
